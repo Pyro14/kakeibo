@@ -36,4 +36,5 @@ def select_from_table(db_path,table_name):
         return pd.DataFrame(data,columns=columns)
 
 if __name__ == "__main__":
-    insert_record()
+    create_table(db_path, "kakeibo")
+    
